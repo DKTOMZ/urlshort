@@ -1,11 +1,11 @@
-require('dotenv').config();
-
 // import express package(commonJS syntax)
 const express = require('express');
 
 // instatiate the express app  
 const app = express();
 const dbconnect = require('./config/dbconfig');
+
+const PORT = process.env.PORT || 3000;
 
 dbconnect();
 
@@ -28,4 +28,4 @@ app.get('*', function(req, res){
   });
 
 // Listen for incoming requests
-app.listen(process.env.PORT, () => console.log(`Server started listening on PORT ${process.env.PORT}`));
+app.listen(PORT, () => console.log(`Server started listening on PORT ${PORT}`));

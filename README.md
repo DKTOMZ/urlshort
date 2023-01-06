@@ -5,7 +5,7 @@ The short url will still point to the old one.
 
 It has a public api that is usable via the following format:
 
-"https://urlshort.onrender.com/urlshort/api/shorten/?url=youractualurl"
+"https://urlshort-tjf7.onrender.com/urlshort/api/shorten/?url=youractualurl"
 
 Responses will be in json format with the following keys:
 original_url - url you provided
