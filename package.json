@@ -1,7 +1,7 @@
 {
     "name": "url_shortener",
     "author": "Dennis Tomno <deni.tomno@gmail.com>",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "API service to shorten urls",
     "keywords": ["api", "url", "shorten", "microservice"],
     "main": "app.js",
