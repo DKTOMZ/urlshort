@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+    <link rel="stylesheet" href="/style.css" type="text/css">
+    <title>Shorten</title>
+</head>
+<body>
+    <h1>All done! Here's your shortened url</h1>
+    <fieldset>
+        <legend>URL Shortener</legend>
+        <div class="url_short" style="padding: 60px 0; text-align: center;">
+            Original Url: <a target="_blank" href=<%= original_url %>><%= original_url %></a>
+            Shortened: <a target="_blank" href=<%= short_url %>><%= short_url %></a>
+            <input onclick="window.location.replace('../');" style="margin-top: 60px;" type="submit" value="I want to shorten more urls" />
+        </div>
+    </fieldset>
+    
+</body>
+</html>

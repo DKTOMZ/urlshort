@@ -1,0 +1,23 @@
+{
+    "name": "url_shortener",
+    "author": "Dennis Tomno <deni.tomno@gmail.com>",
+    "version": "1.0.0",
+    "description": "API service to shorten urls",
+    "keywords": ["api", "url", "shorten", "microservice"],
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "ejs": "^3.1.8",
+        "express": "^4.18.2",
+        "mongoose": "^6.8.3",
+        "shortid": "^2.2.16"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
