@@ -3,13 +3,18 @@ This is a simple url shortener service that makes use of nodejs and frontend (ht
 It takes in a url(preferably long) and shortens it and returns the shortened url.
 The short url will still point to the old one.
 
-It has a public api that is usable via the following format:
+The web interface is available via https://url-short-uudq.onrender.com/api/shorten/
 
-https://"url-short-uudq.onrender.com/urlshort/api/shorten/?url=youractualurl"
+It has a public free api that is usable via the following format:
+
+Make a post request to https://"url-short-uudq.onrender.com/api/shorten/"
+using application/x-www-form-urlencoded (url=yoururl) or application/json ({"url":"yoururl"}) content type 
 
 Responses will be in json format with the following keys:
 original_url - url you provided
 short_url - shortened url
+
+Incase of error, error will be returned:
 error - error
 
 This was a fun, practical and applicable project that helped me learn more about nodejs, express

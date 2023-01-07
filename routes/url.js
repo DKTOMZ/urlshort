@@ -7,7 +7,7 @@ const shortId = require('shortid');
 const baseUrl = 'https://url-short-uudq.onrender.com';
 
 //for api post requests
-router.post('/shorten/?', function(req,res) {
+router.post('/shorten/', function(req,res) {
     let longUrl = req.body.url; let hostname = '';
 
     try {
