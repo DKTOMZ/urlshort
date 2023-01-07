@@ -87,3 +87,5 @@ a {
     display: block;
     margin-bottom: 20px;
 }
+
+a:visited {color: var(--green);}
