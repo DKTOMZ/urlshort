@@ -36,7 +36,7 @@ router.post('/shorten/?', function(req,res) {
 });
 
 //for post requests via web portal
-router.post('/shorten', function(req,res) {
+router.post('/short', function(req,res) {
     let longUrl = req.body.url; let hostname = '';
 
     try {
