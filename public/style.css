@@ -1,6 +1,6 @@
 :root{
     --green: #1DB954;
-    --black: #181818;
+    --black: #141414;
     --lwhite: #f1f0f0;
     --gray: #303841;
 }
@@ -22,22 +22,20 @@ h1 {
 }
 
 h2 {
-    margin: 30px 0;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 form {
     text-align: center;
 }
 
-fieldset {
-    border-radius: 10px;
-    border: none;
-    background-color: #424242;
-    height: 50vh;
-    padding: 100px 0;
-}
+
 
 body {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
     background-color: var(--black);
     font-family: 'ABeeZee', Arial;
     color: var(--lwhite);
@@ -60,14 +58,14 @@ input[type='url'] {
 }
 
 input[type='submit'] {
-    margin-bottom: 80px;
     color: white;
     border: none;
     background-color: var(--green);
 }
 
 input[type='submit']:hover {
-    background-color: var(--black);
+    background-color: #FFD600;
+    color: var(--black);
     cursor: pointer;
 }
 
@@ -76,7 +74,7 @@ i {
 }
 
 footer {
-    margin-top: 60px;
+    margin-top: auto;
 }
 
 p {
@@ -90,3 +88,10 @@ a {
 }
 
 a:visited {color: var(--green);}
+
+
+@media screen and (max-width: 640px){
+    input{
+        width: 90%;
+    }
+}
