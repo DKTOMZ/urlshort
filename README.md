@@ -14,11 +14,11 @@ Make a post request to https://"url-short-uudq.onrender.com/api/shorten/"
 using application/x-www-form-urlencoded (url=yoururl) or application/json ({"url":"yoururl"}) content type 
 
 Responses will be in json format with the following keys:
-original_url - url you provided
-short_url - shortened url
+- original_url - url you provided
+- short_url - shortened url
 
 Incase of error, error will be returned:
-error - error
+- error - error
 
 # Summary
 This was a fun, practical and applicable project that helped me learn more about nodejs, express
