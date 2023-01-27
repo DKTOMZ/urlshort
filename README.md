@@ -3,7 +3,7 @@ This is a simple url shortener service that makes use of nodejs and frontend (ht
 It takes in a url(preferably long) and shortens it and returns the shortened url.
 The short url will still point to the old one.
 
-The web interface is available via https://url-short-uudq.onrender.com/api/shorten/
+The web interface is available via https://url-short-uudq.onrender.com/
 
 It has a public free api that is usable via the following format:
 
