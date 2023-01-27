@@ -4,7 +4,7 @@ const router = express.Router();
 const Url = require('../models/UrlModel');
 const dns = require('dns');
 const shortId = require('shortid');
-const baseUrl = 'https://url-short-uudq.onrender.com';
+const baseUrl = 'https://ushorts.onrender.com';
 
 //for api post requests
 router.post('/shorten/', function(req,res) {
