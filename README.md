@@ -5,12 +5,12 @@ The short url will still point to the old one.
 
 
 # Web interface
-The web interface is available via https://url-short-uudq.onrender.com/
+The web interface is available via https://ushorts.onrender.com/
 
 # API
 It has a public free api that is usable via the following format:
 
-Make a post request to https://"url-short-uudq.onrender.com/api/shorten/"
+Make a POST request to https://ushorts.onrender.com/api/shorten/
 using application/x-www-form-urlencoded (url=yoururl) or application/json ({"url":"yoururl"}) content type 
 
 Responses will be in json format with the following keys:
